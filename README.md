@@ -1,0 +1,2 @@
+# .github
+Default health files
