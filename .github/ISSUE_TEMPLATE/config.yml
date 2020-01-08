@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: User Group
+    url: https://groups.google.com/forum/?fromgroups#!forum/vertx
+    about: A Google Group for users. Post a message if you need help or to report problems.
+  - name: Developer Group
+    url: https://groups.google.com/forum/?fromgroups#!forum/vertx-dev
+    about: A Google Group for Vert.x core developers and contributors.
+  - name: Stack Overflow
+    url: https://stackoverflow.com/questions/tagged/vert.x?sort=newest&pageSize=15
+    about: Mark your questions with the vert.x tag. We do our best to answer questions there but keeping up with the User Group is our priority.
+  - name: Gitter Channel
+    about: Come and chat with other users and module maintainers.
+    url: https://gitter.im/eclipse-vertx/vertx-users
