@@ -1,5 +1,5 @@
 {
     "name": "Vert.x CI Workflow",
     "description": "Vert.x CI workflow template.",
-    "iconName": "the-icon"
+    "iconName": "vertx"
 }
