@@ -9,6 +9,6 @@ contact_links:
   - name: Stack Overflow
     url: https://stackoverflow.com/questions/tagged/vert.x?sort=newest&pageSize=15
     about: Mark your questions with the vert.x tag. We do our best to answer questions there but keeping up with the User Group is our priority.
-  - name: Gitter Channel
+  - name: Discord Channels
     about: Come and chat with other users and module maintainers.
-    url: https://gitter.im/eclipse-vertx/vertx-users
+    url: https://discord.gg/KzEMwP2
