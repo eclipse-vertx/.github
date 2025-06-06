@@ -1,0 +1,51 @@
+name: Bug Report
+description: Create a report to help us improve
+labels: ["bug"]
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Which version(s) did you encounter this bug ?
+      placeholder: ex. 5.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Also tell us, what did you expect to happen? anything that can be relevant such as OS version, JVM version
+      placeholder: |
+        I encountered an exception which looks suspicious while ...
+        OS: ...
+        JVM: ...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+        4. ...
+    validations:
+      required: false
+  - type: input
+    id: reproducer
+    attributes:
+      label: Do you have a reproducer?
+      description: |
+        A reproducer is a simple project hosted on GitHub (or another forge supporting git clone operation) that
+        has a build file that can be executed to reproduce the issue.
+        
+        Reproducers are very helpful for contributors and will likely help them fixing your bug faster.
+      placeholder: Link to github project/gist
+    validations:
+      required: false
